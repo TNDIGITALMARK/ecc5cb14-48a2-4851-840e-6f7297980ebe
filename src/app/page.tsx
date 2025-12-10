@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Navigation } from '@/components/navigation';
 import {
   ArrowRight,
@@ -26,8 +27,20 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4">
-        <div className="max-w-6xl mx-auto text-center">
+      <section className="relative pt-32 pb-20 px-4 overflow-hidden">
+        {/* Hero Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/hero/hero-background.png"
+            alt="Premium marketing background"
+            fill
+            className="object-cover opacity-40"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background" />
+        </div>
+
+        <div className="max-w-6xl mx-auto text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 rounded-full mb-8">
             <Sparkles className="w-4 h-4 text-accent" />
             <span className="text-sm font-medium text-foreground">
@@ -329,8 +342,13 @@ export default function HomePage() {
                 in just 3 months, and we've seen a significant boost in sales."
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center font-heading font-bold text-primary">
-                  SJ
+                <div className="relative w-12 h-12 rounded-full overflow-hidden">
+                  <Image
+                    src="/images/testimonials/client-1.png"
+                    alt="Sarah Johnson"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div>
                   <div className="font-semibold">Sarah Johnson</div>
@@ -351,8 +369,10 @@ export default function HomePage() {
                 cohesive identity that resonates with our target market."
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center font-heading font-bold text-accent-foreground">
-                  MC
+                <div className="relative w-12 h-12 rounded-full overflow-hidden bg-accent/10">
+                  <div className="w-full h-full flex items-center justify-center font-heading font-bold text-accent-foreground">
+                    MC
+                  </div>
                 </div>
                 <div>
                   <div className="font-semibold">Marcus Chen</div>
@@ -373,8 +393,13 @@ export default function HomePage() {
                 and attracted exactly the customers we wanted to reach."
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-success/10 rounded-full flex items-center justify-center font-heading font-bold text-success">
-                  EP
+                <div className="relative w-12 h-12 rounded-full overflow-hidden">
+                  <Image
+                    src="/images/testimonials/client-3.png"
+                    alt="Emma Patel"
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div>
                   <div className="font-semibold">Emma Patel</div>
@@ -400,8 +425,14 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="group bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
-              <div className="h-64 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                <Zap className="w-24 h-24 text-primary/30" />
+              <div className="relative h-64 overflow-hidden">
+                <Image
+                  src="/images/showcase/beauty-showcase.png"
+                  alt="Radiance Skincare Showcase"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
@@ -431,8 +462,14 @@ export default function HomePage() {
             </div>
 
             <div className="group bg-card rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all">
-              <div className="h-64 bg-gradient-to-br from-accent/20 to-success/20 flex items-center justify-center">
-                <Award className="w-24 h-24 text-accent/30" />
+              <div className="relative h-64 overflow-hidden">
+                <Image
+                  src="/images/showcase/fashion-showcase.png"
+                  alt="Modern Minimalist Fashion Showcase"
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">

@@ -59,9 +59,9 @@ export const showcaseItems: ShowcaseItem[] = [
     category: 'tech',
     description:
       'Transformed a new SaaS productivity app into a compelling visual story showcasing modern UI design and impressive growth metrics. Featured across multiple tech platforms.',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format',
-    beforeImageUrl: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&auto=format',
-    afterImageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&auto=format',
+    imageUrl: '/images/showcase/tech-showcase.png',
+    beforeImageUrl: '/images/showcase/tech-showcase.png',
+    afterImageUrl: '/images/showcase/tech-showcase.png',
     metrics: {
       engagementIncrease: '+340%',
       reachGrowth: '2.4M impressions',
@@ -84,9 +84,9 @@ export const showcaseItems: ShowcaseItem[] = [
     category: 'fashion',
     description:
       'Created an elegant visual narrative for a sustainable fashion brand, emphasizing eco-friendly practices and lifestyle photography that resonates with conscious consumers.',
-    imageUrl: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&auto=format',
-    beforeImageUrl: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&auto=format',
-    afterImageUrl: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400&auto=format',
+    imageUrl: '/images/showcase/fashion-showcase.png',
+    beforeImageUrl: '/images/showcase/fashion-showcase.png',
+    afterImageUrl: '/images/showcase/fashion-showcase.png',
     metrics: {
       engagementIncrease: '+285%',
       reachGrowth: '1.8M impressions',
@@ -109,7 +109,7 @@ export const showcaseItems: ShowcaseItem[] = [
     category: 'food',
     description:
       'Developed a mouth-watering visual showcase featuring artisanal product photography and ingredient storytelling that positioned this brand as premium quality.',
-    imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format',
+    imageUrl: '/images/showcase/food-showcase.png',
     metrics: {
       engagementIncrease: '+420%',
       reachGrowth: '3.2M impressions',
@@ -126,7 +126,7 @@ export const showcaseItems: ShowcaseItem[] = [
     category: 'beauty',
     description:
       'Crafted a luxurious yet natural brand showcase emphasizing clean ingredients and sustainable packaging, with earth-toned aesthetics that appeal to eco-conscious millennials.',
-    imageUrl: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&auto=format',
+    imageUrl: '/images/showcase/beauty-showcase.png',
     metrics: {
       engagementIncrease: '+198%',
       reachGrowth: '1.5M impressions',
@@ -147,7 +147,7 @@ export const showcaseItems: ShowcaseItem[] = [
     category: 'lifestyle',
     description:
       'Designed an energetic showcase for a fitness tracking app, featuring dynamic visuals and user success stories that drive app downloads and engagement.',
-    imageUrl: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&auto=format',
+    imageUrl: '/images/showcase/tech-showcase.png',
     metrics: {
       engagementIncrease: '+312%',
       reachGrowth: '2.1M impressions',
@@ -164,7 +164,7 @@ export const showcaseItems: ShowcaseItem[] = [
     category: 'food',
     description:
       'Created an aromatic visual journey showcasing the craft of specialty coffee roasting, from bean to cup, with rich photography and origin storytelling.',
-    imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&auto=format',
+    imageUrl: '/images/showcase/food-showcase.png',
     tags: ['Coffee', 'Food & Beverage', 'Artisan', 'Storytelling'],
     featured: false,
     createdAt: '2024-01-15',

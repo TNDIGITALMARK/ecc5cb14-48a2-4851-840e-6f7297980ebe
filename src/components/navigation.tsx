@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { Sparkles } from 'lucide-react';
@@ -21,8 +22,14 @@ export function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center group-hover:glow-accent transition-all duration-300">
-              <Sparkles className="w-5 h-5 text-accent" />
+            <div className="relative w-10 h-10 group-hover:scale-110 transition-transform duration-300">
+              <Image
+                src="/images/brand/logo.png"
+                alt="Michelle Louis Logo"
+                width={40}
+                height={40}
+                className="object-contain"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-heading font-bold text-foreground">
