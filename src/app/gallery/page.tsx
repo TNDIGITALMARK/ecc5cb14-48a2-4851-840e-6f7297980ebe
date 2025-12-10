@@ -56,7 +56,7 @@ export default function GalleryPage() {
                 className={cn(
                   'px-5 py-2.5 rounded-full font-medium transition-all',
                   selectedCategory === category.id
-                    ? 'bg-primary text-primary-foreground shadow-md'
+                    ? 'bg-primary text-white shadow-md'
                     : 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
                 )}
               >

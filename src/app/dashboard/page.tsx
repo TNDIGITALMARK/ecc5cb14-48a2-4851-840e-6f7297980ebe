@@ -128,7 +128,7 @@ export default function DashboardPage() {
                             className={cn(
                               'w-10 h-10 rounded-full flex items-center justify-center transition-all mb-3',
                               isCompleted
-                                ? 'bg-primary text-primary-foreground shadow-lg'
+                                ? 'bg-primary text-white shadow-lg'
                                 : 'bg-muted text-muted-foreground',
                               isCurrent && 'ring-4 ring-primary/20 animate-pulse'
                             )}
@@ -153,7 +153,7 @@ export default function DashboardPage() {
                 <div className="bg-primary/5 border border-primary/20 rounded-lg p-6">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                      <Clock className="w-6 h-6 text-primary-foreground" />
+                      <Clock className="w-6 h-6 text-white" />
                     </div>
                     <div className="flex-1">
                       <h3 className="font-semibold text-lg mb-2">Content Creation Phase - 60% Complete</h3>
@@ -247,7 +247,7 @@ export default function DashboardPage() {
                 {/* Message 1 */}
                 <div className="flex gap-4">
                   <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
-                    <span className="text-primary-foreground font-semibold">ML</span>
+                    <span className="text-white font-semibold">ML</span>
                   </div>
                   <div className="flex-1">
                     <div className="bg-muted/50 rounded-lg p-4">
@@ -293,7 +293,7 @@ export default function DashboardPage() {
                       rows={3}
                       className="flex-1 px-4 py-3 rounded-lg resize-none"
                     />
-                    <button className="px-6 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-all self-end">
+                    <button className="px-6 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-all self-end">
                       Send
                     </button>
                   </div>

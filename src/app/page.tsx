@@ -79,7 +79,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
             <Link
               href="/submit"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-all hover:shadow-xl hover:scale-105"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-all hover:shadow-xl hover:scale-105"
             >
               Submit Your Brand
               <ArrowRight className="w-5 h-5" />
@@ -265,7 +265,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="relative">
               <div className="bg-card p-6 rounded-xl shadow-md">
-                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4 text-primary-foreground font-heading font-bold text-xl">
+                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4 text-white font-heading font-bold text-xl">
                   1
                 </div>
                 <h3 className="text-lg font-heading font-semibold mb-2">Discovery Call</h3>
@@ -305,7 +305,7 @@ export default function HomePage() {
             </div>
 
             <div className="bg-card p-6 rounded-xl shadow-md">
-              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4 text-primary-foreground font-heading font-bold text-xl">
+              <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4 text-white font-heading font-bold text-xl">
                 4
               </div>
               <h3 className="text-lg font-heading font-semibold mb-2">Launch & Grow</h3>
@@ -502,7 +502,7 @@ export default function HomePage() {
           <div className="text-center">
             <Link
               href="/gallery"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-all hover:shadow-xl"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white font-semibold rounded-lg hover:bg-primary/90 transition-all hover:shadow-xl"
             >
               View Full Portfolio
               <ArrowRight className="w-5 h-5" />
@@ -601,10 +601,10 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto text-center bg-primary rounded-2xl p-12 shadow-2xl">
-          <h2 className="text-4xl font-heading font-bold text-primary-foreground mb-4">
+          <h2 className="text-4xl font-heading font-bold text-white mb-4">
             Ready to Elevate Your Brand?
           </h2>
-          <p className="text-xl text-primary-foreground/90 mb-8">
+          <p className="text-xl text-white/90 mb-8">
             Join 150+ brands that transformed their visibility with our showcase services.
           </p>
           <Link

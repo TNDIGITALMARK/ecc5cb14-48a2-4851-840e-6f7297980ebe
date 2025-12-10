@@ -83,7 +83,7 @@ export default function SubmitPage() {
             </div>
             <a
               href="/dashboard"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-all"
             >
               Go to Dashboard
               <ChevronRight className="w-5 h-5" />
@@ -119,7 +119,7 @@ export default function SubmitPage() {
                     className={cn(
                       'w-10 h-10 rounded-full flex items-center justify-center font-semibold transition-all',
                       currentStep >= step
-                        ? 'bg-primary text-primary-foreground'
+                        ? 'bg-primary text-white'
                         : 'bg-muted text-muted-foreground'
                     )}
                   >
@@ -322,7 +322,7 @@ export default function SubmitPage() {
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-lg hover:bg-primary/90 transition-all"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-medium rounded-lg hover:bg-primary/90 transition-all"
                 >
                   Continue
                   <ChevronRight className="w-5 h-5" />
