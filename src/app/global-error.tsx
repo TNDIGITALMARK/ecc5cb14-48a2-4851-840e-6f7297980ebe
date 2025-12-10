@@ -20,13 +20,13 @@ export default function GlobalError({
         <div className="flex gap-4 justify-center flex-wrap">
           <button
             onClick={reset}
-            className="px-6 py-3 bg-blue-500 text-white border-0 rounded-lg cursor-pointer text-base hover:bg-blue-600"
+            className="px-6 py-3 bg-blue-500 border-0 rounded-lg cursor-pointer text-base hover:bg-blue-600 text-white"
           >
             Try Again
           </button>
           <button
             onClick={() => window.location.href = '/'}
-            className="px-6 py-3 bg-gray-500 text-white border-0 rounded-lg cursor-pointer text-base hover:bg-gray-600"
+            className="px-6 py-3 bg-gray-500 border-0 rounded-lg cursor-pointer text-base hover:bg-gray-600 text-white"
           >
             Go Home
           </button>

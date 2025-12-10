@@ -365,6 +365,15 @@ label {
 }
 
 /* ============================================
+   TEXT COLOR UTILITIES
+   ============================================ */
+
+/* White text utility class - ensures text is pure white */
+.text-white {
+  color: #ffffff !important;
+}
+
+/* ============================================
    RESPONSIVE TYPOGRAPHY
    ============================================ */
 
